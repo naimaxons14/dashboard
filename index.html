@@ -11,354 +11,351 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="container container__header">
-
-            <div class="row">
-                <div class="col-2 col1 pt-5 text-white ">
-                    <a class="ms-4" href="#"><img src="./images/Logo.svg" alt=""></a>
-                    <hr class="hr">
-                    <ul class="list list-unstyled p-0 mt-4">
-                        <li class="item d-flex">
-                            <img src="./images/overview.png" alt="overview">
-                            <p class="desc mb-1 me1">
+    <div class="container">
+        <div class="row mb-5 mt-5">
+            <div class="col-2 col1 pt-5 text-white ">
+                <a class="ms-4" href="#"><img src="./images/Logo.svg" alt=""></a>
+                <hr class="hr">
+                <ul class="list list-unstyled p-0 mt-4 ">
+                    <li class="item d-flex">
+                        <img src="./images/overview.png" alt="overview">
+                        <p class="desc mb-1 me1">
                             Overview
-                            </p>
-                        </li>
+                        </p>
+                    </li>
 
-                        <li class="item d-flex mt-3">
-                            <img src="./images/cloud.png" alt="overview">
-                            <p class="desc mb-1 me1">
-                                Cloud
-                            </p>
-                        </li>
+                    <li class="item d-flex mt-5 align-top">
+                        <img src="./images/cloud.png" alt="overview">
+                        <p class="desc mb-1 me1">
+                            Cloud
+                        </p>
+                    </li>
 
-                        <li class="item d-flex mt-3">
-                            <img src="./images/sketch.png" alt="overview">
-                            <p class="desc mb-1 me1">
-                                Sketch
-                            </p>
-                        </li>
+                    <li class="item d-flex mt-5">
+                        <img src="./images/sketch.png" alt="overview">
+                        <p class="desc mb-1 me1">
+                            Sketch
+                        </p>
+                    </li>
 
-                        <li class="item d-flex mt-3">
-                            <img src="./images/experiment.png" alt="overview">
-                            <p class="desc mb-1 me1">
-                                Experiment
-                            </p>
-                        </li>
+                    <li class="item d-flex mt-5">
+                        <img src="./images/experiment.png" alt="overview">
+                        <p class="desc mb-1 me1">
+                            Experiment
+                        </p>
+                    </li>
 
-                        <li class="item d-flex mt-3">
-                            <img src="./images/security.png" alt="overview">
-                            <p class="desc mb-1 me1">
-                               Security
-                            </p>
-                        </li>
-                        <li class="item d-flex mt-3">
-                            <img src="./images/ownership.png" alt="overview">
-                            <p class="desc mb-1 me1">
-                                Ownership
-                            </p>
-                        </li>
+                    <li class="item d-flex mt-5">
+                        <img src="./images/security.png" alt="overview">
+                        <p class="desc mb-1 me1">
+                            Security
+                        </p>
+                    </li>
+                    <li class="item d-flex mt-5">
+                        <img src="./images/ownership.png" alt="overview">
+                        <p class="desc mb-1 me1">
+                            Ownership
+                        </p>
+                    </li>
 
-                        <li class="item d-flex mt-3">
-                            <img src="./images/test.png" alt="overview">
-                            <p class="desc mb-1 me1">
-                                A/B test
-                            </p>
-                        </li>
+                    <li class="item d-flex mt-5">
+                        <img src="./images/test.png" alt="overview">
+                        <p class="desc mb-1 me1">
+                            A/B test
+                        </p>
+                    </li>
 
-                        <li class="item d-flex mt-3">
-                            <img src="./images/colors.png" alt="overview">
-                            <p class="desc mb-1 me1">
-                                Color
-                            </p>
-                        </li>
+                    <li class="item d-flex mt-5">
+                        <img src="./images/colors.png" alt="overview">
+                        <p class="desc mb-1 me1">
+                            Color
+                        </p>
+                    </li>
+                    <li class="item-last d-flex mt-5">
+                        <img src="./images/logout.png" alt="">
+                        <p class="desc mb-1 me1">
+                            Logout
+                        </p>
+                    </li>
+                </ul>
 
+            </div>
+            <div class="col-10 ms-auto">
+                <div class="row">
+                    <div class="col-10 mt-5 text-center">
+                        <h2 class="header__heading fw-bold">
+                            Overview
+                        </h2>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn btn-light mt-5 btn-sm">
+                            <img src="./images/point.png" alt="">
+                        </button>
+                    </div>
 
-
-
-
-                    </ul>
+                    <div class="col">
+                        <button type="button" class="btn btn-success mt-5 btn-sm text-white fw-bold">
+                            Add
+                        </button>
+                    </div>
                 </div>
-                <div class="col-10 ms-auto">
-                    <div class="row">
-                        <div class="col-10 mt-5 text-center">
-                            <h2 class="header__heading fw-bold">
-                                Overview
-                            </h2>
-                        </div>
-                        <div class="col">
-                            <button type="button" class="btn btn-light mt-5 btn-sm">
-                                <img src="./images/point.png" alt="">
-                            </button>
-                        </div>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <table class="table table-striped table-hover border-white fw-bold text-secondary">
+                            <thead>
+                                <tr>
+                                    <td scope="col" class="text-light">Owner</td>
+                                    <td scope="col" class="text-light">End date</td>
+                                    <td scope="col" class="text-light">Profits</td>
+                                    <td scope="col" class="text-light">Losses</td>
+                                    <td scope="col" class="text-light">Phone</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="align-items-center">
+                                    <td class="p-3">
+                                        <img src="./images/savanna.png" alt="" width="35" height="35"> Savannah
+                                        Nguyen
+                                    </td>
 
-                        <div class="col">
-                            <button type="button" class="btn btn-success mt-5 btn-sm text-white fw-bold">
-                                Add
-                            </button>
-                        </div>
+                                    <td class="pt-4">
+                                        <time>1/15/12</time>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-success">$328.85</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">$779.58</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">(603) 555-0123</p>
+                                    </td>
+                                </tr>
+                                <tr class="align-items-center fw-bold">
+                                    <td class="p-3">
+                                        <img src="./images/jenny.png" alt="" width="35" height="35"> Jenny Wilson
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <time>8/30/14</time>
+                                    </td>
+                                    <td class="pt-4">
+                                        <p class="text-success">$948.55</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">$589.99</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">(629) 555-0129</p>
+                                    </td>
+                                </tr>
+                                <tr class="align-items-center fw-bold">
+                                    <td class="p-3">
+                                        <img src="./images/anette.png" alt="" width="35" height="35"> Annette Black
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <time>5/30/14</time>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-success">$778.35</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">$948.55</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">(308) 555-0121</p>
+                                    </td>
+                                </tr>
+                                <tr class="aligin-items-center fw-bold">
+                                    <td class="p-3">
+                                        <img src="./images/kecheyn.png" alt="" width="35" height="35"> Kathryn
+                                        Murphy
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <time>11/7/16</time>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-success">$169.43</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">$202.87</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">(302) 555-0107</p>
+                                    </td>
+                                </tr>
+                                <tr class="aligin-items-center fw-bold">
+                                    <td class="p-3">
+                                        <img src="./images/cecheyn.png" alt="" width="35" height="35"> Cameron
+                                        Williamson
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <time>7/27/13</time>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-success">$782.01</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">$710.68</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">(303) 555-0105</p>
+                                    </td>
+                                </tr>
+                                <tr class="aligin-items-center fw-bold">
+                                    <td class="p-3">
+                                        <img src="./images/cristian.png" alt="" width="35" height="35"> Kristin
+                                        Watson
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <time>5/19/12</time>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-success">$767.50</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">$779.58</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">(225) 555-0118</p>
+                                    </td>
+                                </tr>
+                                <tr class="aligin-items-center fw-bold">
+                                    <td class="p-3">
+                                        <img src="./images/eleanor.png" alt="" width="35" height="35"> Eleanor Pena
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <time>8/21/15</time>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-success">$475.22</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">$219.78</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">(205) 555-0100</p>
+                                    </td>
+                                </tr>
+                                <tr class="aligin-items-center fw-bold">
+                                    <td class="p-3">
+                                        <img src="./images/guy.png" alt="" width="35" height="35"> Guy Hawkins
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <time>5/27/15</time>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-success">$576.28</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">$446.61</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">(207) 555-0119</p>
+                                    </td>
+                                </tr>
+                                <tr class="aligin-items-center fw-bold">
+                                    <td class="p-3">
+                                        <img src="./images/breekl.png" alt="" width="35" height="35"> Brooklyn
+                                        Simmons
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <time>3/4/16</time>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-success">$219.78</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">$928.41</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">(201) 555-0124</p>
+                                    </td>
+                                </tr>
+                                <tr class="aligin-items-center fw-bold">
+                                    <td class="p-3">
+                                        <img src="./images/robert.png" alt="" width="35" height="35"> Robert Fox
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <time>4/4/18</time>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-success">$202.87</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">$275.43</p>
+                                    </td>
+
+                                    <td class="pt-4">
+                                        <p class="text-danger">(684) 555-0102</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="row mt-3">
-                        <div class="col-12">
-                            <table class="table table-striped table-hover border-white fw-bold text-secondary">
-                                <thead>
-                                    <tr>
-                                        <td scope="col" class="text-light">Owner</td>
-                                        <td scope="col" class="text-light">End date</td>
-                                        <td scope="col" class="text-light">Profits</td>
-                                        <td scope="col" class="text-light">Losses</td>
-                                        <td scope="col" class="text-light">Phone</td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="align-items-center">
-                                        <td class="p-3">
-                                            <img src="./images/savanna.png" alt="" width="35" height="35"> Savannah
-                                            Nguyen
-                                        </td>
+                </div>
 
-                                        <td class="pt-4">
-                                            <time>1/15/12</time>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-success">$328.85</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">$779.58</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">(603) 555-0123</p>
-                                        </td>
-                                    </tr>
-                                    <tr class="align-items-center fw-bold">
-                                        <td class="p-3">
-                                            <img src="./images/jenny.png" alt="" width="35" height="35"> Jenny Wilson
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <time>8/30/14</time>
-                                        </td>
-                                        <td class="pt-4">
-                                            <p class="text-success">$948.55</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">$589.99</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">(629) 555-0129</p>
-                                        </td>
-                                    </tr>
-                                    <tr class="align-items-center fw-bold">
-                                        <td class="p-3">
-                                            <img src="./images/anette.png" alt="" width="35" height="35"> Annette Black
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <time>5/30/14</time>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-success">$778.35</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">$948.55</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">(308) 555-0121</p>
-                                        </td>
-                                    </tr>
-                                    <tr class="aligin-items-center fw-bold">
-                                        <td class="p-3">
-                                            <img src="./images/kecheyn.png" alt="" width="35" height="35"> Kathryn
-                                            Murphy
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <time>11/7/16</time>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-success">$169.43</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">$202.87</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">(302) 555-0107</p>
-                                        </td>
-                                    </tr>
-                                    <tr class="aligin-items-center fw-bold">
-                                        <td class="p-3">
-                                            <img src="./images/cecheyn.png" alt="" width="35" height="35"> Cameron
-                                            Williamson
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <time>7/27/13</time>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-success">$782.01</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">$710.68</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">(303) 555-0105</p>
-                                        </td>
-                                    </tr>
-                                    <tr class="aligin-items-center fw-bold">
-                                        <td class="p-3">
-                                            <img src="./images/cristian.png" alt="" width="35" height="35"> Kristin
-                                            Watson
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <time>5/19/12</time>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-success">$767.50</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">$779.58</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">(225) 555-0118</p>
-                                        </td>
-                                    </tr>
-                                    <tr class="aligin-items-center fw-bold">
-                                        <td class="p-3">
-                                            <img src="./images/eleanor.png" alt="" width="35" height="35"> Eleanor Pena
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <time>8/21/15</time>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-success">$475.22</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">$219.78</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">(205) 555-0100</p>
-                                        </td>
-                                    </tr>
-                                    <tr class="aligin-items-center fw-bold">
-                                        <td class="p-3">
-                                            <img src="./images/guy.png" alt="" width="35" height="35"> Guy Hawkins
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <time>5/27/15</time>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-success">$576.28</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">$446.61</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">(207) 555-0119</p>
-                                        </td>
-                                    </tr>
-                                    <tr class="aligin-items-center fw-bold">
-                                        <td class="p-3">
-                                            <img src="./images/breekl.png" alt="" width="35" height="35"> Brooklyn
-                                            Simmons
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <time>3/4/16</time>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-success">$219.78</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">$928.41</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">(201) 555-0124</p>
-                                        </td>
-                                    </tr>
-                                    <tr class="aligin-items-center fw-bold">
-                                        <td class="p-3">
-                                            <img src="./images/robert.png" alt="" width="35" height="35"> Robert Fox
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <time>4/4/18</time>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-success">$202.87</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">$275.43</p>
-                                        </td>
-
-                                        <td class="pt-4">
-                                            <p class="text-danger">(684) 555-0102</p>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-                    <div class="row text-center m-4 fw-bold">
-                        <div class="col-3 text-center mx-auto">
-                            <nav aria-label="Page navigation example" class="mx-auto">
-                                <ul class="pagination">
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Previous">
-                                            <span aria-hidden="true">«</span>
-                                        </a>
-                                    </li>
-                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Next">
-                                            <span aria-hidden="true">»</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
+                <div class="row text-center m-4 fw-bold">
+                    <div class="col-3 text-center mx-auto">
+                        <nav aria-label="Page navigation example" class="mx-auto">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">«</span>
+                                    </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">»</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
-
         </div>
-
-    </header>
+    </div>
 </body>
 
 </html>

@@ -12406,7 +12406,7 @@ img {
   border: 1px solid #FFFFFF !important;
 }
 
-.item {
-  vertical-align: middle;
+.item-last {
+  margin-bottom: 50px;
 }
 /*# sourceMappingURL=main.css.map */
