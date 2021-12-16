@@ -1,0 +1,14 @@
+.header {
+      &__container{
+            font-family: 'Balsamiq Sans', cursive;
+      }
+      &__overview::after {
+            background-image: url(../../images/overview.png) !important;
+            background-repeat: no-repeat !important;
+            // background-size: contain !important;
+            width: 40px !important;
+            height: 28px !important;
+            display: inline-block !important;
+            vertical-align: middle;
+      }
+}
